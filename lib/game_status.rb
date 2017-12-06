@@ -28,3 +28,7 @@ def full?(board)
     combo == "X" || combo == "O"
   end
 end
+
+def draw(board)
+  full?(board) == true and won?(board) == false
+end
