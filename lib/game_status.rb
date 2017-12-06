@@ -41,3 +41,4 @@ def winner(board)
   if won?(board) == winner_moves
   board[winner_moves][0]
   end
+end
