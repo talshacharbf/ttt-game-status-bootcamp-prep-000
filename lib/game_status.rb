@@ -24,7 +24,7 @@ WIN_COMBINATIONS = [
 end
 
 def full?(board)
-  board.all do |combo|
+  board.all? do |combo|
     combo == "X" or "O"
   end
 end
