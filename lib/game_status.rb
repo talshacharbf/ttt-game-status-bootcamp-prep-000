@@ -36,3 +36,10 @@ end
 def over?(board)
   draw?(board) or won?(board)
 end
+
+def winner(board)
+  if won?(board) = winner moves
+    board[winner moves][0]
+  end
+
+  
