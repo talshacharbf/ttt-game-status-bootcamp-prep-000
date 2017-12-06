@@ -38,8 +38,8 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) = winner moves
-    board[winner moves][0]
+  if won?(board) = winner_moves
+    board[winner_moves][0]
   end
 
   
