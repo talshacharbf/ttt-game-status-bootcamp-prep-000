@@ -22,3 +22,9 @@ WIN_COMBINATIONS = [
     position_taken?(board, combo[0])
   end
 end
+
+def full?(board)
+  board.all do |combo|
+    combo == "X" or "O"
+  end
+end
