@@ -25,6 +25,6 @@ end
 
 def full?(board)
   board.all? do |combo|
-    combo == "X" or "O"
+    combo == "X" || combo == "O"
   end
 end
